@@ -1,0 +1,15 @@
+{
+    "name": "suez/portal-contacts",
+    "authors": [
+        {
+            "name": "alhuo-smile",
+            "email": "alexandre.huon@smile.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "\\": "src/"
+        }
+    },
+    "require": {}
+}
