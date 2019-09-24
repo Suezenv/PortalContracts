@@ -13,7 +13,7 @@ interface ErrorInterface
     /**
      * @return string
      */
-    public function getCode(): string;
+    public function getCode(): ?string;
 
     /**
      * @param string $code
@@ -23,12 +23,12 @@ interface ErrorInterface
     /**
      * @return string
      */
-    public function getMessage(): string;
+    public function getMessage(): ?string;
 
     /**
      * @param string $message
      */
-    public function setMessage($message): string;
+    public function setMessage($message);
 
     /**
      * @param array $context
@@ -38,5 +38,5 @@ interface ErrorInterface
     /**
      * @return array
      */
-    public function getContext(): array;
+    public function getContext(): ?array;
 }
